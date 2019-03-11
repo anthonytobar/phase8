@@ -1,0 +1,90 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	display: block;
+	margin: 0;
+}
+
+.center-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box green {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box black {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.row1 {
+	height: 40%;
+	width: 100%;
+	display: flex;
+}
+
+.row2 {
+	height: 20%;
+	width: 100%;
+	display: flex;
+}
+
+.box {
+	height: 100%;
+	width: calc(100%/3);
+	display: flex ;
+}
+
+.black {
+	background-color: #000000;
+}
+
+.display{
+	display: none;
+}
+
+.green {
+	background-color: #7CFC00;
+}
+
+.hide{
+	visibility: hidden;
+}
+
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.col {
+	height: 100%;
+	width: calc(100%/3);
+}
+
+.row {
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+
+.opaque {
+	opacity: 0.25;
+}
+
+.no-cursor:hover {
+	cursor: default;
+}
+
+.button:active {
+	transform: scale(0.95, 0.95);
+}
+
+.el.classList.add{
+visibility: collapse; 
+}
